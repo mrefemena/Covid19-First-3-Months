@@ -89,7 +89,7 @@ WHERE dea.continent IS NOT NULL
 Select *, (DailyTotalVaccinations/population)*100
 FROM popvsvac
 
-##CREATING A TEMPORARY TABLE
+## CREATING A TEMPORARY TABLE
 
 DROP TABLE IF EXISTS #PercentPopulationVaccinated
 CREATE TABLE #PercentPopulationVaccinated
