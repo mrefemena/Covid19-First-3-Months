@@ -1,13 +1,13 @@
 # Covid19-First-3-Months
 Exploring Covid 19 data using SQL to analyze global trends from the first 3 months of the pandemic.
 
-#Data Cleaning
+# Data Cleaning
 --SELECT *
 --FROM CovidVaccinations
 --WHERE continent IS NOT NULL
 --ORDER BY 3,4
 
---DATA TO BE USED --
+## DATA TO BE USED --
 
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM CovidDeaths
